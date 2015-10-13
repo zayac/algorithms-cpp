@@ -41,7 +41,7 @@ int main() {
     print_vector(isv);
     verify(isv, original);
 
-    vector<int> msv = insertion_sort(v);
+    vector<int> msv = merge_sort(v);
     cout << "Sorted using insertion sort: ";
     print_vector(msv);
     verify(msv, original);
